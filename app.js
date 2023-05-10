@@ -41,9 +41,12 @@ sideBarBtn.addEventListener('mouseover', function () {
 sideBarBtn.addEventListener('click', function () {
     if (sidebarModal.classList.contains('d-none')) {
         sidebarModal.classList.remove('d-none')
+        // console.log("log")
     } else {
         sidebarModal.classList.add('d-none')
+        // console.log("log")
     }
+
 })
 
 
